@@ -24,6 +24,9 @@
 - Can my [private limited company](str_ltd:ltd) be a [shareholder](shareholder) in a [public corporate](str_plc:plc)?
 - [private limited company](str_ltd:ltd)
 - [ltd](str_ltd)
+- [Can my private limited company be a shareholder in public corporate?](language:en)[private limited company](str_ltd:ltd) be a [shareholder](shareholder) in [public corporate](str_plc:plc)?
+- [Can my private limited company be a shareholder in public corporte?](language:en)[private limited company](str_ltd:ltd) be a [shareholder](shareholder) in public corporte?
+- [Can my private limited company be a shareholder in public corporate?](language:en)[private limited company](str_ltd:ltd) be a [shareholder](shareholder) in [public corporate](str_plc:plc)?
 
 ## intent:deny
 - no
@@ -39,6 +42,7 @@
 - see you around
 - see you later
 - Bye
+- [bye](language:no)
 
 ## intent:greet
 - hey
@@ -49,6 +53,7 @@
 - hey there
 - Hello
 - Hello
+- [Hello](language:no)
 
 ## intent:mood_great
 - perfect

@@ -49,3 +49,13 @@
 ## interactive_story_1
 * greet
     - utter_greet
+
+## interactive_story_1
+* greet{"language": "no"}
+    - utter_greet
+* company_question{"language": "en", "str_ltd": "ltd", "shareholder": "shareholder", "str_plc": "plc"}
+    - utter_company_question
+* company_question{"language": "en", "str_ltd": "ltd", "shareholder": "shareholder"}
+    - utter_company_question
+* company_question{"language": "en", "str_ltd": "ltd", "shareholder": "shareholder", "str_plc": "plc"}
+* goodbye{"language": "no"}
