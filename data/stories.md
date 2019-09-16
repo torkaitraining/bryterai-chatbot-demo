@@ -35,3 +35,17 @@
   - utter_happy
 
 
+
+## interactive_story_1
+* greet
+    - utter_greet
+* company_question{"str_ltd": "ltd", "shareholder": "shareholder", "str_plc": "plc"}
+    - utter_company_question
+* company_question{"str_ltd": "ltd"}
+    - utter_happy
+* company_question{"str_lted": "ltd"}
+* goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet
