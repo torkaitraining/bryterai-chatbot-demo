@@ -5,6 +5,7 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - company_question
 
 actions:
 - utter_greet
@@ -12,6 +13,7 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_company_question
 
 templates:
   utter_greet:
@@ -29,3 +31,6 @@ templates:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_company_question:
+  - text: I see you are interested in company strcture related information. 
