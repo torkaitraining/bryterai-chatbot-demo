@@ -25,3 +25,13 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## str path 1
+* greet
+  - utter_greet
+* company_question
+  - utter_company_question
+* affirm
+  - utter_happy
+
+
